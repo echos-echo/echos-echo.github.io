@@ -18,7 +18,7 @@ Importantly, the price (in coffee) of each producer will increase according to t
 
 In addition to a Coffee counter, the player will be able to see how many of each producer they possess, the current price of each producer, the CPS (coffee per second) of each producer, and the total CPS for all producers, combined. Finally, to make things more interesting, we won't show all of the producers at the start of the game-- they'll be unlocked successively as they player accumulates more coffee.
 
-If this seems rather abstract, here's a [link to the finished product](https://krnsk0.github.io/dom_homework/).
+If this seems rather abstract, check out this [link to the finished product](https://fullstackacademy.github.io/Checkpoint.DOM.Source/).
 
 ## Starting Point
 
