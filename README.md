@@ -1,23 +1,17 @@
 # DOM Homework
 
-Firstly, don't stress out that we will be using this homework to judge you an any way except to understand how we can better help you.
+Firstly, don't stress out that we will be using this test to judge you in any way except to understand how we can better help you.
 
-You will recieve direct feedback on your work for this homework.
-
-If you feel stuck, ask for help. Morning review, help-desk tickets, learning-team lunches, and office hours are great resources to ask clarifying questions about topics directly related to completing the homework.
-
-We ask that you don't help each other or cheat. Use online resources to help your problem solving, but don't copy/paste answers to each other if you find something similar online.
+Also, we ask that you don't help each other or cheat.  Feel free to use any online resource but don't copy/paste answers to each other or if you find something similar online.
 
 ## Resources
 
 The following resources are allowed:
 
-- Any notes you've taken so far.
-- Any code you have in your previous projects.
-- learn.fullstackacademy.com
-- All slide decks we've used in class.
-
-When in doubt: remember this homework is meant for us to provide you with meaningful feedback as you learn. There is no value in the "correct" solution, only in how you were able to come up with that solution.
+* Any notes you've taken so far.
+* Any code you have in your previous projects.
+* learn.fullstackacademy.com.
+* All the slide decks that we've used in class.
 
 ## Introduction
 
