@@ -699,4 +699,4 @@ describe('Slice 3: Buying Producers & Tick', function() {
 
 // Don't forget to commit your changes!
 
-// Take a look at the extra credit in the README, if you have time to spare!
+// Take a look at the extra credit in the README if you have time to spare!
