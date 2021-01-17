@@ -681,7 +681,7 @@ describe('Slice 3: Buying Producers & Tick', function() {
     });
 
     // Hint: Use what you've written already! The tick function can be just a few lines.
-    xit('updates the dom to reflect this new coffee count', function() {
+    xit('updates the DOM to reflect this new coffee count', function() {
       code.tick(data);
       const coffeeCounter = document.getElementById('coffee_counter');
       expect(coffeeCounter.innerText).to.equal(100);
