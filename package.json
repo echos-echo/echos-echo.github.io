@@ -9,11 +9,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.2.0",
-    "http-server": "^0.11.1",
-    "jsdom": "^15.1.1",
-    "mocha": "^6.1.4",
-    "sinon": "^7.3.2"
+    "http-server": "^0.12.3",
+    "jsdom": "^16.4.0",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.3"
   }
 }
