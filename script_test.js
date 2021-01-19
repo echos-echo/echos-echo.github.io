@@ -346,7 +346,7 @@ describe('Slice 2: Unlocking & Rendering Producers', function() {
 
   // Try running `renderProducers(data)` in the browser console. This might show you some producers, depending on how much coffee you have. You can click a bunch more times and run the function again to test it out, or you can just set `data.coffee` to a big number before running `renderProducers(data)`. Try that to see if the function works!
 
-  // How is our code actually going to run this function? That's what the next test, the last one in Slice 2, addresses; we'll go back to a funciton you wrote in Slice 1 and modify it, slightly.
+  // How is our code actually going to run this function? That's what the next test, the last one in Slice 2, addresses; we'll go back to a function you wrote in Slice 1 and modify it, slightly.
   describe('The clickCoffee function', function() {
     // Clear out our fake DOM.
     beforeEach('reset the fake DOM', function() {
