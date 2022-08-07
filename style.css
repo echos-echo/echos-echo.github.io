@@ -163,6 +163,9 @@ button {
   font-weight: bolder;
 }
 
+/* makes it so that when they user "selects" the coffee text by accident
+   the highlighted 'text' won't be colored
+*/
 ::selection {
   color: none;
   background: none;
@@ -175,5 +178,17 @@ button {
 
   .settings-container {
     height: 80vh;
+  }
+
+  #splash_coffee {
+    font-size: 180px;
+  }
+
+  .settings-border {
+    width: 50%;
+  }
+  .settings {
+    line-height: 50px;
+    margin: 20px;
   }
 }
