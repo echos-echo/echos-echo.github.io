@@ -8,9 +8,10 @@ body {
 }
 .column-container {
   display: none;
-  width: 100%;
-  height: 100vh;
+  margin: 2vh;
+  height: 96vh;
   min-width: 650px;
+  animation: fadein 0.5s;
 }
 .column {
   margin: 10px;
@@ -49,6 +50,16 @@ body {
   user-select: none;
   font-size: 128px;
   cursor: pointer;
+  transition: 0.2s;
+}
+
+#big_coffee:hover {
+  transform: scale(1.1);
+  transition: 0.001s;
+}
+
+#big_coffee:active {
+  transform: scale(1.25);
 }
 
 .counter-container {
@@ -104,6 +115,55 @@ button {
   color: #362415;
 }
 
+/* my additional CSS */
+
 #super_caffeine {
   display: none;
+}
+
+#splash_coffee {
+  font-size: 120px;;
+}
+
+.settings-container {
+  margin: 5vh;
+  height: 90vh;
+  border-radius: 20px;
+  background-color: #0b241a;
+  color: #fffcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: fadein 0.3s;
+}
+
+@keyframes fadein {
+  from {opacity: 0;}
+  to  {opacity: 1;}
+}
+
+.settings-border {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #fffcfc;
+}
+
+.settings {
+  line-height: 25px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.settings:hover {
+  transform: scale(1.2);
+  background-color: #fffcfc;
+  color: #362415;
+  font-weight: bolder;
+}
+
+::selection {
+  color: none;
+  background: none;
 }
