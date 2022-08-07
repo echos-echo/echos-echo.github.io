@@ -8,19 +8,30 @@
 </head>
 
 <body>
+  <div id="splash">
+    <div id="header">
+      <h1>Welcome to Starbies!</h1>
+    </div>
+    <div class="settings-container">
+      <h2>Would you like to:</h2>
+      <button id="new_game" class="settings">Start a new game</button>
+      <button id="restore_game" class="settings">Restore your old data</button>
+    </div>
+  </div>
   <div class="column-container">
     <div class="column">
       <div class="container left">
         <div class="counter-container">Coffee: <span id="coffee_counter">0</span></div>
         <div class="cps-container"><span id="cps">0</span> coffee/second</div>
         <div id="big_coffee">☕️</div>
+        <div id="super_caffeine"></div>
       </div>
     </div>
     <div class="column">
       <div class="column-header">Coffee Producers</div>
-      <div class="container right" id="producer_container">
-      </div>
+      <div class="container right" id="producer_container"></div>
     </div>
+  </div>
     <script type="text/javascript" src="data.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
