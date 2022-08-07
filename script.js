@@ -211,8 +211,8 @@ if (typeof process === 'undefined') {
       data = JSON.parse(localStorage.getItem('data'));
     } else {
       window.alert('There was no old data to restore!\nWe\'ve initialized a new game for you');
+      data = window.data;
     }
-    console.log('old game restored');
     // separated running the game into a separate function so that data does not tick until we have made a selection
     // game only begins running again after user has chosen to restore/reset
     runGame(data);
