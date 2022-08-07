@@ -210,7 +210,7 @@ if (typeof process === 'undefined') {
     if (window.localStorage.getItem('data')) {
       data = JSON.parse(localStorage.getItem('data'));
     } else {
-      window.alert('There was no old data to restore!\nWe\'ve initialized a new game for you');
+      window.alert('There was no old data to restore!\nPlease open a new cafe :)');
       data = window.data;
     }
     // separated running the game into a separate function so that data does not tick until we have made a selection
