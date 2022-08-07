@@ -167,3 +167,13 @@ button {
   color: none;
   background: none;
 }
+
+@media screen and (max-width: 480px) {
+  .column-container {
+    flex-wrap: wrap;
+  }
+
+  .settings-container {
+    height: 80vh;
+  }
+}
