@@ -171,8 +171,7 @@ button {
   background: none;
 }
 
-@media screen and (max-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2.0) {
+@media screen and (max-width: 480px) {
   .column-container {
     margin: 8px;
     flex-direction: column;
@@ -197,7 +196,7 @@ button {
     width: 80%;
     padding: 10px;
   }
-  
+
   .settings {
     line-height: 50px;
     margin: 8px;
