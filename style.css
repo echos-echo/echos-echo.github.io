@@ -122,7 +122,7 @@ button {
 }
 
 #splash_coffee {
-  font-size: 180px;;
+  font-size: 180px;
 }
 
 .settings-container {
@@ -173,14 +173,14 @@ button {
 
 @media screen and (max-width: 480px) {
   .column-container {
-    margin: 10px;
+    margin: 8px;
     flex-direction: column;
     min-width: 10vw;
   }
 
   .container {
-    height: 40vh;
-    width: 80vw;
+    height: 42vh;
+    width: 85vw;
   }
 
   .settings-container {
@@ -189,15 +189,15 @@ button {
   }
 
   #splash_coffee {
-    font-size: 200px;
-    line-height: 180px;
+    line-height: 160px;
   }
 
   .settings-border {
-    width: 85%;
+    width: 80%;
+    padding: 10px;
   }
   .settings {
     line-height: 50px;
-    margin: 10px;
+    margin: 8px;
   }
 }
